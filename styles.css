@@ -55,4 +55,7 @@ header nav{
   margin-top: 10px;
 }
 
-header
+header .highlight, header .current{
+  color: #e8491d;
+  font-weight: bold;
+}
