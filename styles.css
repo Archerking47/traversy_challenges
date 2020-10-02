@@ -15,6 +15,15 @@ body {
   overflow: hidden;
 }
 
+.button_1 {
+  height: 37px;
+  background: #e8491d;
+  border: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #fff;
+}
+
 /* Header */
 header {
   background: #35424a;
@@ -85,3 +94,42 @@ header a:hover {
 }
 
 /* newsletter */
+#newsletter {
+  padding: 15px;
+  color: #fff;
+  background-color: #35424a;
+}
+#newsletter h1 {
+  float: left;
+}
+#newsletter form {
+  float: right;
+  margin-top: 15px;
+}
+#newsletter input[type="email"]{
+  padding: 4px;
+  height: 25px;
+  width: 250px;
+}
+
+/* boxes */
+#boxes {
+  margin-top: 20px;
+}
+#boxes .box {
+  float: left;
+  width: 30%;
+  padding: 10px;
+  text-align: center;
+}
+#boxes .box img{
+  width: 90px;
+}
+
+/* sidebar */
+
+/* main-col */
+
+/* services */
+
+/* footer */
