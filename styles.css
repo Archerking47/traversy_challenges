@@ -140,6 +140,10 @@ header a:hover {
   width: 30%;
   margin-top: 10px;
 }
+#sidebar .quote input, #sidebar .quote textarea {
+  width: 90%;
+  padding: 5px;
+}
 
 /* main-col */
 #main-col {
@@ -148,7 +152,13 @@ header a:hover {
 }
 
 /* services */
-
+#services li {
+  list-style: none;
+  padding: 20px;
+  border: #ccc solid 1px;
+  margin-bottom: 5px;
+  background: #e6e6e6;
+}
 /* footer */
 footer {
   padding: 20px;
